@@ -1,5 +1,7 @@
-.nav {
-   display: flex;
-   justify-content: space-between;
-   background-color: aqua;
+.active {
+    color: greenyellow;
+}
+
+.link {
+    text-decoration: none;
 }
