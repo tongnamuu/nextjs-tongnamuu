@@ -1,12 +1,12 @@
 import { useState } from "react"
-import NavBar from "../components/NavBar"
+import Head from "next/head"
+import Seo from "../components/Seo"
 
 export default function Home() {
-  const[counter, setCounter] = useState(0) 
   return (
     <div>
-      <h1>Tongnamuu {counter}</h1>
-      <button onClick={() => setCounter(prev => prev + 1)}> Increase</button>
+      <Seo title="Home"></Seo>
+      <h1 className="active">Hello</h1>
     </div>
   )
 }
